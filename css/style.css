@@ -36,7 +36,8 @@ a,
   color: #E5E7EB;
 }
 
-#starting {
+#starting,
+footer {
   background-color: #1F2937;
 }
 
@@ -61,11 +62,11 @@ p {
   margin: 16px 0;
 }
 
-.left {
+.frontpage .left {
   width: 45%;
 }
 
-.right {
+.frontpage .right {
   width: 55%;
 }
 
@@ -148,4 +149,50 @@ button {
   font-weight: bold;
   text-align: right;
   font-size: 24px;
+}
+
+#cta {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-prompt {
+  width: 70%;
+  margin: 5em;
+  padding: 16px;
+  background-color: #3882F6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta-text {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 16px 0 0 0;
+}
+
+.cta-prompt .subtext {
+  margin: 0 0 16px 0;
+}
+
+.right button {
+  border: 2px solid white;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: white;
 }
